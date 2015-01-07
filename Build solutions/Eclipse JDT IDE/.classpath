@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="Source code/Scanner standard input stream end of file condition experiment"/>
 	<classpathentry kind="src" path="Source code/Logical operator and bitwise logical operator experiment"/>
+	<classpathentry kind="src" path="Source code/Enhanced for loop experiment"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="Built software"/>
 </classpath>
