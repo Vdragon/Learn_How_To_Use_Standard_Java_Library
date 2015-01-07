@@ -19,6 +19,7 @@ public class Enhanced_for_loop_experiment {
 	public static void main(String[] args) {
 		int numbers[] = {12, 34, 56, 78, 90};
 		String fruit_names[] = {"apple", "banana", "pear"};
+		int two_dimension_array[][] = {{1, 2, 3}, {1, 2}, {4, 5, 6, 7}};
 		
 		for (int number : numbers){
 			System.out.println(number);
@@ -26,6 +27,13 @@ public class Enhanced_for_loop_experiment {
 		
 		for (String fruit_name : fruit_names){
 			System.out.println(fruit_name);
+		}
+		
+		for(int row[] : two_dimension_array){
+			for(int column : row){
+				System.out.print(column + " ");
+			}
+			System.out.println();
 		}
 	}
 
