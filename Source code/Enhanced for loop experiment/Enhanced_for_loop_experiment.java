@@ -3,7 +3,6 @@
  * @brief 增強型 for 迴圈實驗程式
  * @author Vdragon
  */
-import static java.lang.System.*;
 
 /**
  * @brief 放置 Java 程式進入點的類別
@@ -22,11 +21,11 @@ public class Enhanced_for_loop_experiment {
 		String fruit_names[] = {"apple", "banana", "pear"};
 		
 		for (int number : numbers){
-			out.println(number);
+			System.out.println(number);
 		}
 		
 		for (String fruit_name : fruit_names){
-			out.println(fruit_name);
+			System.out.println(fruit_name);
 		}
 	}
 
